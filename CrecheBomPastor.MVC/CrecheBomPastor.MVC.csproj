@@ -217,6 +217,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CrecheBomPastor.Application\CrecheBomPastor.Application.csproj">
+      <Project>{37067faf-e17a-4ac1-860b-15c9989c0d24}</Project>
+      <Name>CrecheBomPastor.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CrecheBomPastor.Domain\CrecheBomPastor.Domain.csproj">
       <Project>{2cb7834f-9ff7-4a35-9909-93c0c6304623}</Project>
       <Name>CrecheBomPastor.Domain</Name>

@@ -1,5 +1,5 @@
 ﻿using CrecheBomPastor.Domain.Entities;
-using CrecheBomPastor.Domain.Interfaces;
+using CrecheBomPastor.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

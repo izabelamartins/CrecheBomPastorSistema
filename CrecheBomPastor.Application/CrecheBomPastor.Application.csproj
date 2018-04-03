@@ -40,7 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppServiceBase.cs" />
+    <Compile Include="FeedbackAppService.cs" />
+    <Compile Include="Interfaces\IAppServiceBase.cs" />
+    <Compile Include="Interfaces\ICollaboratorAppService.cs" />
+    <Compile Include="Interfaces\IEventAppService.cs" />
+    <Compile Include="Interfaces\IEventPhotoAppService.cs" />
+    <Compile Include="Interfaces\IFeedbackAppService.cs" />
+    <Compile Include="Interfaces\INewsAppService.cs" />
+    <Compile Include="NewsAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrecheBomPastor.Domain\CrecheBomPastor.Domain.csproj">
+      <Project>{2cb7834f-9ff7-4a35-9909-93c0c6304623}</Project>
+      <Name>CrecheBomPastor.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

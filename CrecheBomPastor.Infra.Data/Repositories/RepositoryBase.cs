@@ -1,4 +1,4 @@
-﻿using CrecheBomPastor.Domain.Interfaces;
+﻿using CrecheBomPastor.Domain.Interfaces.Repositories;
 using CrecheBomPastor.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
